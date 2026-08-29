@@ -1,0 +1,8 @@
+// Copy to config.js for local development.
+// For GitHub Pages, configure repository Actions variables/secrets and let the workflow generate this file.
+window.CC_CONFIG = {
+  API_BASE_URL: 'http://127.0.0.1:8765',
+  SUPABASE_URL: '',
+  SUPABASE_ANON_KEY: '',
+  APP_VERSION: '0.2.0'
+};
